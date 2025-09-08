@@ -1,0 +1,10 @@
+se utilizo el contendor docker
+
+con el comand uniciamos: 
+    docker build -t simpl_app .
+
+para listar los contenedores existentes
+    docker ps -a
+
+iniciar el contendor
+    docker start -a contendor_id

@@ -1,7 +1,7 @@
 
-import psycopg2
-import pandas as pd
-from sqlalchemy import create_engine
+import psycopg2 
+import pandas as pd 
+from sqlalchemy import create_engine 
 
 cursor = None
 conexion =psycopg2.connect(user='postgres',
